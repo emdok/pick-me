@@ -33,6 +33,14 @@ nav ul li {
   margin: 0px 50px 0px 50px;
 }
 
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #D9574F;
+}
+
 .site-title {
   font-size: 48px;
   font-weight: 400;
@@ -43,6 +51,7 @@ footer {
   left: 0;
   bottom: 0;
   right: 0;
+  background-color: #FFF3E8;
 }
 
 footer ul {
