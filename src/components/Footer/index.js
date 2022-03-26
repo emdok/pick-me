@@ -6,13 +6,13 @@ function Footer() {
     <footer>
       <ul>
         <li>
-         <FaGithub className="icons"/>
+         <a href='https://github.com/emdok'><FaGithub className="icons"/></a>
         </li>
         <li>
-         <FaLinkedinIn className="icons"/>
+         <a href='https://www.linkedin.com/in/emdok/'><FaLinkedinIn className="icons"/></a>
         </li>
         <li>
-         <FaStackOverflow className="icons"/>
+         <a href='https://stackoverflow.com/users/17066131/nokkemded'><FaStackOverflow className="icons"/></a>
         </li>
       </ul>
     </footer>
