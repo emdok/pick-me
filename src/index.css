@@ -3,6 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFBEF;
 }
 
 code {
@@ -24,7 +25,36 @@ nav ul {
   gap: 10px;
 }
 
-nav ul li {
+li {
   list-style: none;
+}
+
+nav ul li {
   margin: 0px 50px 0px 50px;
+}
+
+.site-title {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.icons {
+  height: 2em;
+  width: 2em;
 }
