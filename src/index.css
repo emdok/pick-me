@@ -94,6 +94,38 @@ footer ul {
   width: 2em;
 }
 
+.portfolio-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin:100px 100px 150px 100px;
+  gap: 20px
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  max-width: 300px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  -webkit-box-shadow: -2px 3px 0px 2px rgba(0,0,0,1);
+  -moz-box-shadow: -3px 3px 0px 2px rgba(0,0,0,1);
+  box-shadow: -7px 6px 0px 2px rgba(0,0,0,1);
+}
+
+.Card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.card-info {
+justify-self: flex-end;
+}
+
 @media only screen and (max-width: 900px) {
   header {
     flex-direction: column;
