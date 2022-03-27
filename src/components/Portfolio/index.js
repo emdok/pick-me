@@ -5,11 +5,6 @@ function Portfolio() {
   return (
     <section className='portfolio-grid'>
       <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
     </section>
   )
 }
