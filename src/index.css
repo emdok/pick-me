@@ -46,7 +46,7 @@ a:hover {
 
 .site-title {
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .About {
@@ -133,6 +133,34 @@ footer ul {
 
 .card-info h3 {
   margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  gap: 20px;
+}
+
+form input, textarea, button {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+form input, button {
+  height: 40px;
+}
+
+form textarea {
+  height: 200px;
+}
+
+form button {
+  background-color: #D0FFD5;
+  border-width: 2px;
 }
 
 @media only screen and (max-width: 900px) {

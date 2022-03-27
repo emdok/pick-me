@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 import './index.css';
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <Header></Header>
       <main>
         {/* <About></About> */}
-        <Portfolio></Portfolio>
+        {/* <Portfolio></Portfolio> */}
+        <Contact></Contact>
       </main>
       <Footer></Footer>
     </div>
