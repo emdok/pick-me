@@ -19,6 +19,7 @@ header {
 }
 
 nav ul {
+  padding: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -47,8 +48,32 @@ a:hover {
   font-weight: 400;
 }
 
+.About {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  margin: 100px 75px 50px 75px;
+}
+
+.about-image {
+  flex: 1;
+  height: auto;
+  width: 50%;
+}
+
+.about-text {
+  flex: 1 10%;
+}
+
+.about-image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
 footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   right: 0;
@@ -67,4 +92,37 @@ footer ul {
 .icons {
   height: 2em;
   width: 2em;
+}
+
+@media only screen and (max-width: 900px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .About {
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 75px 50px 75px;
+  }
+
+  .about-image {
+    width: 70%;
+  }
+
+  .about-text {
+    width: 70%;
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .about-image {
+    width: 100%;
+  }
+
+  .about-text {
+    width: 100%;
+  }
 }
