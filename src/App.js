@@ -7,7 +7,7 @@ import './index.css';
 
 function App() {
   return (
-    <div>
+    <div className='root-child'>
       <Header></Header>
       <main>
         {/* <About></About> */}

@@ -139,8 +139,9 @@ form {
   display: flex;
   flex-direction: column;
   max-width: 500px;
-  margin: auto;
+  margin: 100px auto;
   gap: 20px;
+  padding: 20px;
 }
 
 form input, textarea, button {
@@ -155,13 +156,27 @@ form input, button {
 }
 
 form textarea {
-  height: 200px;
+  height: 300px;
 }
 
 form button {
   background-color: #D0FFD5;
   border-width: 2px;
+  -webkit-box-shadow: -4px 3px 0px 2px rgba(0,0,0,1);
+  -moz-box-shadow: -4px 3px 0px 2px rgba(0,0,0,1);
+  box-shadow: -4px 3px 0px 2px rgba(0,0,0,1);
 }
+
+button:hover {
+  opacity: 50%;
+}
+
+button:active {
+  box-shadow: -3px 2px 0px 0px rgba(0,0,0,1);
+  transform: translate(-4px, 4px);
+}
+
+
 
 @media only screen and (max-width: 900px) {
   header {
