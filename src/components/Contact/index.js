@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
+// Contact page component
 function Contact() {
   const [errorMessage, setErrorMessage] = useState('');
   const [formState, setFormState] = useState({
@@ -10,13 +11,13 @@ function Contact() {
   });
   const { name, email, message } = formState;
 
+//handles the change in state of formState with error validation
   function handleChange(e) {
     setFormState({...formState, [e.target.name]: e.target.value })
 
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
-      console.log(isValid);
-      // isValid conditional statement
+
       if (!isValid) {
         setErrorMessage('Your email is invalid.');
       } else {
@@ -34,6 +35,7 @@ function Contact() {
     }
   }
 
+  // Handles form submission and console logs submission for now
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
