@@ -27,7 +27,7 @@ You can view this webpage here: http://emdok.github.io/pick-me
 Feel free to click through each component to familarize yourself with my skillset and what I have to offer as your future employee.
 
 
-  ![alt text](assets/images/portfolio-v2.png)
+  ![Portfolio Image](/src/assets/img/portfolio-v2.png)
 
 
 ## Credits
