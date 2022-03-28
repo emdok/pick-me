@@ -53,6 +53,8 @@ a:hover {
   font-weight: 500;
 }
 
+/******* About Page ********/
+
 .About {
   display: flex;
   flex-direction: row;
@@ -77,6 +79,8 @@ a:hover {
   border-radius: 10px;
 }
 
+/******* Footer *******/
+
 footer {
   position: fixed;
   left: 0;
@@ -97,6 +101,8 @@ footer ul {
   height: 2em;
   width: 2em;
 }
+
+/******* Portfolio Page *******/
 
 .portfolio-grid {
   display: flex;
@@ -181,6 +187,8 @@ button:active {
   transform: translate(-4px, 4px);
 }
 
+/******* Resume Page *******/
+
 .resume {
   display: flex;
   flex-direction: column;
@@ -213,6 +221,8 @@ button:active {
 .resume-icon {
   padding-right: 15px;
 }
+
+/******* Mobile *******/
 
 @media only screen and (max-width: 900px) {
   header {
