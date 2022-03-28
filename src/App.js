@@ -24,10 +24,10 @@ function App() {
         setCurrentPage={setCurrentPage}
       ></Header>
       <main>
-        {currentPage === 'About' && <About></About>}
-        {currentPage === 'Portfolio' && <Portfolio></Portfolio>}
-        {currentPage === 'Contact' && <Contact></Contact> }
-        {currentPage === 'Resume' && <Resume></Resume> }
+          {currentPage === 'About' && <About></About>}
+          {currentPage === 'Portfolio' && <Portfolio></Portfolio>}
+          {currentPage === 'Contact' && <Contact></Contact> }
+          {currentPage === 'Resume' && <Resume></Resume> }
       </main>
       <Footer></Footer>
     </div>

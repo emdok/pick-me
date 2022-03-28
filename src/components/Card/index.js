@@ -47,8 +47,8 @@ function Card() {
       <img src={require(`../../assets/img/${project.img}`)} alt="Project"></img>
       <div className="card-info">
         <h3>{project.title}</h3>
-        <a href={`${project.repo}`}>Repository</a>
-        <a href={`${project.deployed}`}>Deployed Link</a>
+        <a href={`${project.repo}`} rel="noreferrer" target="_blank">Repository</a>
+        <a href={`${project.deployed}`} rel="noreferrer" target="_blank">Deployed Link</a>
       </div>
     </div>
     ))}
