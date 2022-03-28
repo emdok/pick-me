@@ -2,7 +2,9 @@ import React from "react";
 import { FaDownload } from "react-icons/fa";
 import myResume from '../../assets/EmilyDokken-Resume.pdf'
 
+// Resume page
 function Resume() {
+  // function used when button is clicked to download resume file
   const downloadFile = () => {
     window.open(myResume)
   }

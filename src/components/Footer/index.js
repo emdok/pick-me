@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedinIn, FaStackOverflow  } from 'react-icons/fa';
 
+// footer displays links to github, linkedin, stackoverflow
 function Footer() {
   return (
     <footer>

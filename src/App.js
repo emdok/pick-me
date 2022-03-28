@@ -8,6 +8,7 @@ import Resume from './components/Resume';
 import './index.css';
 
 function App() {
+  // states used to conditionally render each page
   const [pages] = useState([
     'About',
     'Portfolio',

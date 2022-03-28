@@ -1,6 +1,8 @@
 import React from "react";
 
+// nav component used in header
 function Nav(props) {
+  // passed props to help in conditional render of each 'page'
   const {
     pages = [],
     setCurrentPage,

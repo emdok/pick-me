@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "../Nav";
 import "font-awesome/css/font-awesome.min.css";
 
+// header which contains the nav component and passes selected page props to nav
 function Header(props) {
   const {
     pages = [],

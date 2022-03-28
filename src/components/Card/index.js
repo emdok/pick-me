@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
+// card component used on Portfolio page
 function Card() {
+  //array of project objects
   const [photos] = useState([
     {
       img: 'plantzzz.jpg',

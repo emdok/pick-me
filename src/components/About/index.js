@@ -1,5 +1,6 @@
 import React from 'react';
 
+// About Component
 function About() {
   return (
     <section className='About'>
