@@ -4,9 +4,7 @@
 
 This is a portfolio webiste built using React to display all of my current work throughout the University of Oregon FullStack Web Development Course. This is an SPA that conditionally renders pages (components) based on your selection in the Nav. Using flexbox, this site is also mobile friendly.
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
