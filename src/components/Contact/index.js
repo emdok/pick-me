@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
+  const [errorMessage, setErrorMessage] = useState('');
   const [formState, setFormState] = useState({
     name: '',
     email: '',
@@ -11,6 +12,26 @@ function Contact() {
 
   function handleChange(e) {
     setFormState({...formState, [e.target.name]: e.target.value })
+
+    if (e.target.name === 'email') {
+      const isValid = validateEmail(e.target.value);
+      console.log(isValid);
+      // isValid conditional statement
+      if (!isValid) {
+        setErrorMessage('Your email is invalid.');
+      } else {
+        setErrorMessage('');
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage('');
+      }
+    } 
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+    }
   }
 
   function handleSubmit(e) {
@@ -26,7 +47,7 @@ function Contact() {
           type="text"
           name="name"
           defaultValue={name}
-          onChange={handleChange}
+          onBlur={handleChange}
         ></input>
       </div>
       <div className="email">
@@ -35,7 +56,7 @@ function Contact() {
           type="email"
           name="email"
           defaultValue={email}
-          onChange={handleChange}
+          onBlur={handleChange}
         ></input>
       </div>
       <div>
@@ -44,9 +65,14 @@ function Contact() {
           placeholder="Start typing..."
           name="message"
           defaultValue={message}
-          onChange={handleChange}
+          onBlur={handleChange}
         ></textarea>
       </div>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
       <button type="submit">
         Submit
       </button>
