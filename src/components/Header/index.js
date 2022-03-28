@@ -17,6 +17,7 @@ console.log(props.pages[0]);
             <a
               href='#about'
               onClick={() => setCurrentPage(props.pages[0])}
+              className={`${currentPage === 'About' && 'navActive'}`}
               >About
             </a>
           </li>
@@ -24,6 +25,7 @@ console.log(props.pages[0]);
             <a 
               href='#portfolio'
               onClick={() => setCurrentPage(props.pages[1])}
+              className={`${currentPage === 'Portfolio' && 'navActive'}`}
               >Portfolio
             </a>
           </li>
@@ -31,13 +33,15 @@ console.log(props.pages[0]);
             <a 
               href='#contact'
               onClick={() => setCurrentPage(props.pages[2])}
+              className={`${currentPage === 'Contact' && 'navActive'}`}
               >Contact
             </a>
           </li>
           <li>            
             <a 
-              href='#about'
+              href='#resume'
               onClick={() => setCurrentPage(props.pages[3])}
+              className={`${currentPage === 'Resume' && 'navActive'}`}
               >Resume
             </a>
           </li>
