@@ -16,28 +16,28 @@ console.log(props.pages[0]);
           <li>
             <a
               href='#about'
-              onclick={() => setCurrentPage(props.pages[0])}
+              onClick={() => setCurrentPage(props.pages[0])}
               >About
             </a>
           </li>
           <li>            
             <a 
               href='#portfolio'
-              onclick={() => setCurrentPage(props.pages[1])}
+              onClick={() => setCurrentPage(props.pages[1])}
               >Portfolio
             </a>
           </li>
           <li>            
             <a 
               href='#contact'
-              onclick={() => setCurrentPage(props.pages[2])}
+              onClick={() => setCurrentPage(props.pages[2])}
               >Contact
             </a>
           </li>
           <li>            
             <a 
               href='#about'
-              onclick={() => setCurrentPage(props.pages[3])}
+              onClick={() => setCurrentPage(props.pages[3])}
               >Resume
             </a>
           </li>

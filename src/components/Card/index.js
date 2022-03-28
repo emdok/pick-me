@@ -43,7 +43,7 @@ function Card() {
   return (
     <>
     {photos.map((project) => (
-    <div className="Card">
+    <div key={photos.img} className="Card">
       <img src={require(`../../assets/img/${project.img}`)} alt="Project"></img>
       <div className="card-info">
         <h3>{project.title}</h3>
@@ -53,7 +53,6 @@ function Card() {
     </div>
     ))}
     </>
-
   )
 }
 
