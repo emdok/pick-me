@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/pick-me/static/css/main.407ed726.css",
-    "main.js": "/pick-me/static/js/main.14b23483.js",
+    "main.css": "/pick-me/static/css/main.7190faac.css",
+    "main.js": "/pick-me/static/js/main.1aae9f7b.js",
     "static/js/787.4e767120.chunk.js": "/pick-me/static/js/787.4e767120.chunk.js",
     "static/media/EmilyDokken-Resume.pdf": "/pick-me/static/media/EmilyDokken-Resume.d64e16dadd5dd1ce9aee.pdf",
+    "static/media/portfolio-v2.png": "/pick-me/static/media/portfolio-v2.db7579f76c738a3ad966.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/pick-me/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/EmilyDokkenAbout.jpg": "/pick-me/static/media/EmilyDokkenAbout.d3d118b02d82fa0a7ff7.jpg",
     "static/media/streamView.jpg": "/pick-me/static/media/streamView.db971810bd54cf876d8b.jpg",
@@ -17,12 +18,12 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/pick-me/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/code-quiz.jpg": "/pick-me/static/media/code-quiz.2bcc4daae01ff944d1f5.jpg",
     "index.html": "/pick-me/index.html",
-    "main.407ed726.css.map": "/pick-me/static/css/main.407ed726.css.map",
-    "main.14b23483.js.map": "/pick-me/static/js/main.14b23483.js.map",
+    "main.7190faac.css.map": "/pick-me/static/css/main.7190faac.css.map",
+    "main.1aae9f7b.js.map": "/pick-me/static/js/main.1aae9f7b.js.map",
     "787.4e767120.chunk.js.map": "/pick-me/static/js/787.4e767120.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.407ed726.css",
-    "static/js/main.14b23483.js"
+    "static/css/main.7190faac.css",
+    "static/js/main.1aae9f7b.js"
   ]
 }
