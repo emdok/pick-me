@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFFBEF;
+  background-color: #fffbef;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -41,7 +41,11 @@ a {
 }
 
 a:hover {
-  color: #D9574F;
+  color: #d9574f;
+}
+
+.navActive {
+  font-weight: bold;
 }
 
 .site-title {
@@ -78,7 +82,7 @@ footer {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: #FFF3E8;
+  background-color: #fff3e8;
 }
 
 footer ul {
@@ -87,7 +91,6 @@ footer ul {
   gap: 20px;
   justify-content: center;
   align-items: flex-end;
-
 }
 
 .icons {
@@ -100,8 +103,8 @@ footer ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin:100px 100px 150px 100px;
-  gap: 20px
+  margin: 100px 100px 150px 100px;
+  gap: 20px;
 }
 
 .Card {
@@ -112,16 +115,15 @@ footer ul {
   border-style: solid;
   border-width: 3px;
   border-radius: 10px;
-  background-color: #F4F4F4;
-  -webkit-box-shadow: -2px 3px 0px 2px rgba(0,0,0,1);
-  -moz-box-shadow: -3px 3px 0px 2px rgba(0,0,0,1);
-  box-shadow: -7px 6px 0px 2px rgba(0,0,0,1);
+  background-color: #f4f4f4;
+  -webkit-box-shadow: -2px 3px 0px 2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -3px 3px 0px 2px rgba(0, 0, 0, 1);
+  box-shadow: -7px 6px 0px 2px rgba(0, 0, 0, 1);
 }
 
 .Card img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-
 }
 
 .card-info {
@@ -144,14 +146,17 @@ form {
   padding: 20px;
 }
 
-form input, textarea, button {
+form input,
+textarea,
+button {
   width: 100%;
   box-sizing: border-box;
   border-radius: 5px;
   border-width: 1px;
 }
 
-form input, button {
+form input,
+button {
   height: 40px;
 }
 
@@ -160,11 +165,11 @@ form textarea {
 }
 
 button {
-  background-color: #D0FFD5;
+  background-color: #d0ffd5;
   border-width: 2px;
-  -webkit-box-shadow: -4px 3px 0px 2px rgba(0,0,0,1);
-  -moz-box-shadow: -4px 3px 0px 2px rgba(0,0,0,1);
-  box-shadow: -4px 3px 0px 2px rgba(0,0,0,1);
+  -webkit-box-shadow: -4px 3px 0px 2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -4px 3px 0px 2px rgba(0, 0, 0, 1);
+  box-shadow: -4px 3px 0px 2px rgba(0, 0, 0, 1);
 }
 
 button:hover {
@@ -172,7 +177,7 @@ button:hover {
 }
 
 button:active {
-  box-shadow: -3px 2px 0px 0px rgba(0,0,0,1);
+  box-shadow: -3px 2px 0px 0px rgba(0, 0, 0, 1);
   transform: translate(-4px, 4px);
 }
 
@@ -181,7 +186,6 @@ button:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .prof-list {
@@ -204,14 +208,11 @@ button:active {
   max-width: 175px;
   height: 60px;
   font-size: 24px;
-
 }
 
 .resume-icon {
   padding-right: 15px;
 }
-
-
 
 @media only screen and (max-width: 900px) {
   header {
@@ -236,7 +237,6 @@ button:active {
 }
 
 @media only screen and (max-width: 650px) {
-
   .about-image {
     width: 100%;
   }
