@@ -9,9 +9,7 @@ function About() {
       <div className='about-text'>
         <h2>Fullstack Web Developer | Senior QA Engineer</h2>
         <p>
-          Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat.
-
-          Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Proin eget tortor risus. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+          Emily is currently working as a Senior QA Engineer for Instrument LLC. She recently finished the University of Oregon's FullStack Javascript Web Development Bootcamp and is on the hunt for a FullStack Web Development position. As a QA Engineer she has been exposed to Agile processes, worked in large development teams for Enterprise software companies, and has spent numerous hours debugging software with developers. Emily is ready to turn the table and start building that software she has been testing for so long. 
         </p>
       </div>
     </section>
