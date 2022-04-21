@@ -5,6 +5,12 @@ function Card() {
   //array of project objects
   const [photos] = useState([
     {
+      img: 'Asteroids.png',
+      title: 'Asteroids',
+      deployed: 'https://nasteroids.herokuapp.com/',
+      repo: 'https://github.com/ChrisKurz098/NASAteroids ',
+    },
+    {
       img: 'plantzzz.jpg',
       title: 'Plantzzz',
       deployed: 'https://plantzzz.herokuapp.com/',
