@@ -5,30 +5,23 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import { AnimatePresence } from "framer-motion";
+import { Routes, Route, Link } from "react-router-dom";
 import './index.css';
 
 function App() {
   // states used to conditionally render each page
-  const [pages] = useState([
-    'About',
-    'Portfolio',
-    'Contact',
-    'Resume',
-  ]);
-  const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
     <div className='root-child'>
-      <Header
-        pages={pages}
-        currentPage={currentPage}
-        setCurrentPage={setCurrentPage}
-      ></Header>
+      <Header />
       <main>
-          {currentPage === 'About' && <About></About>}
-          {currentPage === 'Portfolio' && <Portfolio></Portfolio>}
-          {currentPage === 'Contact' && <Contact></Contact> }
-          {currentPage === 'Resume' && <Resume></Resume> }
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="resume" element={<Resume />} />
+      </Routes>
       </main>
       <Footer></Footer>
     </div>

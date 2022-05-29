@@ -1,51 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // nav component used in header
-function Nav(props) {
-  // passed props to help in conditional render of each 'page'
-  const {
-    pages = [],
-    setCurrentPage,
-    currentPage,
-  } = props;
+function Nav() {
   return (
     <nav>
       <ul>
         <li>
-          <a
-            href="#about"
-            onClick={() => setCurrentPage(pages[0])}
-            className={`${currentPage === "About" && "navActive"}`}
-          >
-            About
-          </a>
+        <Link to="/">About</Link>
         </li>
         <li>
-          <a
-            href="#portfolio"
-            onClick={() => setCurrentPage(pages[1])}
-            className={`${currentPage === "Portfolio" && "navActive"}`}
-          >
-            Portfolio
-          </a>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
         <li>
-          <a
-            href="#contact"
-            onClick={() => setCurrentPage(pages[2])}
-            className={`${currentPage === "Contact" && "navActive"}`}
-          >
-            Contact
-          </a>
+          <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <a
-            href="#resume"
-            onClick={() => setCurrentPage(pages[3])}
-            className={`${currentPage === "Resume" && "navActive"}`}
-          >
-            Resume
-          </a>
+          <Link to="/resume">Resume</Link>
         </li>
       </ul>
     </nav>
