@@ -9,7 +9,7 @@ function Resume() {
     window.open(myResume)
   }
   return (
-    <div className="resume">
+    <div className="resume page-fade">
       <h1>Proficiences</h1>
       <div className="prof-list">
         <ul>

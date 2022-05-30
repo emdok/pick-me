@@ -3,7 +3,7 @@ import React from 'react';
 // About Component
 function About() {
   return (
-    <section className='About'>
+    <section className='About page-fade'>
       <div className='about-image'>
       <img src={require(`../../assets/img/EmilyDokkenAbout.jpg`)} alt=''></img>
       </div>

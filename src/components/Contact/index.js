@@ -42,7 +42,7 @@ function Contact() {
   }
 
   return (
-    <form id="contact-form" className="form" onSubmit={handleSubmit}>
+    <form id="contact-form" className="form page-fade" onSubmit={handleSubmit}>
       <div className="name">
         <label htmlFor="name">Name:</label>
         <input
