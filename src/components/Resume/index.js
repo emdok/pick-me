@@ -1,6 +1,6 @@
 import React from "react";
 import { FaDownload } from "react-icons/fa";
-import myResume from '../../assets/EmilyDokken-Resume.pdf'
+import myResume from '../../assets/EmilyDokken_Resume2022.pdf'
 
 // Resume page
 function Resume() {
