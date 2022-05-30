@@ -5,7 +5,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import "./index.css";
 
 function App() {
@@ -15,7 +15,9 @@ function App() {
       <Header />
       <main>
           <Routes>
-            <Route path="/" element={<About />} />
+            <Route path="about" element={<About />} />
+            <Route path="/" element={<Navigate replace to="/about" />} />
+            <Route path="/pick-me" element={<Navigate replace to="/about" />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="contact" element={<Contact />} />
             <Route path="resume" element={<Resume />} />
