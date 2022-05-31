@@ -2,27 +2,24 @@ import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 import { send } from "emailjs-com";
 
+const initialState = {
+  name: "",
+  email: "",
+  message: "",
+};
+
 // Contact page component
 function Contact() {
   const [errorMessage, setErrorMessage] = useState("");
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const { name, email, message } = formState;
+  const [{ name, email, message }, setFormState] = useState(initialState);
 
   //emailJS
-  const [toSend, setToSend] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  const [toSend, setToSend] = useState(initialState);
 
   //handles the change in state of formState with error validation
   function handleChange(e) {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
-    setFormState({ ...formState, [e.target.name]: e.target.value });
+    setFormState({ ...initialState, [e.target.name]: e.target.value });
 
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
@@ -40,14 +37,18 @@ function Contact() {
       }
     }
     if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
+      setFormState({ ...initialState, [e.target.name]: e.target.value });
     }
   }
+
+  const clearState = () => {
+    setToSend({ ...initialState });
+  };
 
   // Handles form submission and console logs submission for now
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(formState);
+    console.log(toSend);
 
     send("service_lieu4td", "template_rdohmga", toSend, "uEf333vBDQeTLqRKG")
       .then((response) => {
@@ -56,6 +57,12 @@ function Contact() {
       .catch((err) => {
         console.log("FAILED...", err);
       });
+
+    setTimeout(() => {
+      clearState();
+    }, 1000);
+
+    console.log("we are here");
   }
 
   return (
@@ -65,9 +72,9 @@ function Contact() {
         <input
           type="text"
           name="name"
-          defaultValue={name}
           value={toSend.name}
           onBlur={handleChange}
+          onChange={handleChange}
         ></input>
       </div>
       <div className="email">
@@ -75,9 +82,9 @@ function Contact() {
         <input
           type="email"
           name="email"
-          defaultValue={email}
           value={toSend.email}
           onBlur={handleChange}
+          onChange={handleChange}
         ></input>
       </div>
       <div>
@@ -85,9 +92,9 @@ function Contact() {
         <textarea
           placeholder="Start typing..."
           name="message"
-          defaultValue={message}
           value={toSend.message}
           onBlur={handleChange}
+          onChange={handleChange}
         ></textarea>
       </div>
       {errorMessage && (
