@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/pick-me/static/css/main.d0933ee0.css",
-    "main.js": "/pick-me/static/js/main.7a1d85ec.js",
-    "static/media/portfolio-v2.png": "/pick-me/static/media/portfolio-v2.db7579f76c738a3ad966.png",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/pick-me/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/EmilyDokken_Resume2022.pdf": "/pick-me/static/media/EmilyDokken_Resume2022.03fd77056a5d1e8c7235.pdf",
-    "static/media/EmilyDokkenAbout.jpg": "/pick-me/static/media/EmilyDokkenAbout.d3d118b02d82fa0a7ff7.jpg",
-    "static/media/streamView.jpg": "/pick-me/static/media/streamView.db971810bd54cf876d8b.jpg",
-    "static/media/fontawesome-webfont.eot": "/pick-me/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/pick-me/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/portfolio-v1.jpg": "/pick-me/static/media/portfolio-v1.7ab275d09598ea45b833.jpg",
-    "static/media/typin-tech.jpg": "/pick-me/static/media/typin-tech.a47a73ee623d17941186.jpg",
-    "static/media/plantzzz.jpg": "/pick-me/static/media/plantzzz.040d0eefae60f30c5d2f.jpg",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/pick-me/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/weather-dashboard.jpg": "/pick-me/static/media/weather-dashboard.888bdf896e54fac9bd54.jpg",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/pick-me/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/code-quiz.jpg": "/pick-me/static/media/code-quiz.2bcc4daae01ff944d1f5.jpg",
-    "static/media/Asteroids.png": "/pick-me/static/media/Asteroids.c886321399ca52e5aaea.png",
-    "index.html": "/pick-me/index.html",
-    "main.d0933ee0.css.map": "/pick-me/static/css/main.d0933ee0.css.map",
-    "main.7a1d85ec.js.map": "/pick-me/static/js/main.7a1d85ec.js.map"
+    "main.css": "/static/css/main.88d271b9.css",
+    "main.js": "/static/js/main.7745421d.js",
+    "static/media/portfolio-v2.png": "/static/media/portfolio-v2.db7579f76c738a3ad966.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/EmilyDokken_Resume2022.pdf": "/static/media/EmilyDokken_Resume2022.03fd77056a5d1e8c7235.pdf",
+    "static/media/EmilyDokkenAbout.jpg": "/static/media/EmilyDokkenAbout.d3d118b02d82fa0a7ff7.jpg",
+    "static/media/streamView.jpg": "/static/media/streamView.db971810bd54cf876d8b.jpg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/portfolio-v1.jpg": "/static/media/portfolio-v1.7ab275d09598ea45b833.jpg",
+    "static/media/typin-tech.jpg": "/static/media/typin-tech.a47a73ee623d17941186.jpg",
+    "static/media/plantzzz.jpg": "/static/media/plantzzz.040d0eefae60f30c5d2f.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.888bdf896e54fac9bd54.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/code-quiz.jpg": "/static/media/code-quiz.2bcc4daae01ff944d1f5.jpg",
+    "static/media/Asteroids.png": "/static/media/Asteroids.c886321399ca52e5aaea.png",
+    "index.html": "/index.html",
+    "main.88d271b9.css.map": "/static/css/main.88d271b9.css.map",
+    "main.7745421d.js.map": "/static/js/main.7745421d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0933ee0.css",
-    "static/js/main.7a1d85ec.js"
+    "static/css/main.88d271b9.css",
+    "static/js/main.7745421d.js"
   ]
 }
