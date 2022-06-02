@@ -276,7 +276,7 @@ button:active {
 
 @media only screen and (max-width: 500px) {
   .Card {
-    height: 44vh;
+    height: 405px;
   }
 }
 /******* Page Animations *******/
