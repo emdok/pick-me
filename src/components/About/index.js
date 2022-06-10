@@ -10,7 +10,7 @@ function About() {
       <div className='about-text'>
         <h2>Fullstack Web Developer | Senior QA Engineer</h2>
         <p>
-          Emily is currently working as a Senior QA Engineer for Instrument LLC. She recently finished the University of Oregon's FullStack Javascript Web Development Bootcamp and is on the hunt for a FullStack Web Development position. As a QA Engineer she has been exposed to Agile processes, worked in large development teams for Enterprise software companies, and has spent numerous hours debugging software with developers. Emily is ready to turn the table and start building that software she has been testing for so long. 
+        Senior QA Engineer turned fullstack web developer leveraging ability to critically problem solve and locate issues within code to build better products for an intuitive user experience.A recent graduate of the University of Oregon's Full Stack Javascript Web Development Bootcamp and on the hunt for a FullStack Web Development position.
         </p>
       </div>
     </section>
